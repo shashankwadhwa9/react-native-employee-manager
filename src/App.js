@@ -6,13 +6,11 @@ import { createStore } from 'redux';
 class App extends Component {
     render() {
         return (
-            <Provider store={createStore()}>
-                <View>
-                    <Text>
-                        Hello!
-                    </Text>
-                </View>
-            </Provider>
+            <View>
+                <Text>
+                    Hello!
+                </Text>
+            </View>
         );
     }
 }
