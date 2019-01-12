@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Card, CardSection, Input, Buttton } from './common';
+import { Card, CardSection, Input, Button } from './common';
 import { employeeUpdate } from '../actions';
 
 class EmployeeCreate extends Component {
@@ -33,9 +33,9 @@ class EmployeeCreate extends Component {
                 </CardSection>
 
                 <CardSection>
-                    <Buttton>
+                    <Button>
                         Create
-                    </Buttton>
+                    </Button>
                 </CardSection>
             </Card>
         );
