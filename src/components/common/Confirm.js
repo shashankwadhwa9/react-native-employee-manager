@@ -4,7 +4,7 @@ import { CardSection } from './CardSection';
 import { Button } from './Button';
 
 const Confirm = ({ children, visible, onAccept, onDecline }) => {
-    const { containerStyle, textStyle, cardSectionStyle}  = styles;
+    const { containerStyle, textStyle, cardSectionStyle } = styles;
 
     return (
         <Modal
@@ -40,7 +40,7 @@ const styles = {
         lineHeight: 40
     },
     containerStyle: {
-        backGroundColor: 'rgba(0, 0, 0, 0.75)',
+        backgroundColor: 'rgba(0, 0, 0, 0.75)',
         position: 'relative',
         flex: 1,
         justifyContent: 'center'
